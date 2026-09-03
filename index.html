@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Job Application Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Job Application Tracker</h1>
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="stat-card">
+                <h3>Total</h3>
+                <p id="totalCount">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Interviews</h3>
+                <p id="interviewCount">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Offers</h3>
+                <p id="offerCount">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Rejected</h3>
+                <p id="rejectedCount">0</p>
+            </div>
+
+        </div>
+
+
+        <!-- Form Section -->
+        <div class="form-container">
+
+            <input 
+                type="text" 
+                id="company"
+                placeholder="Company name"
+            >
+
+            <input 
+                type="text" 
+                id="jobRole"
+                placeholder="Job role"
+            >
+
+            <input 
+                type="text" 
+                id="location"
+                placeholder="Job location"
+            >
+
+            <select id="jobType">
+
+                <option value="Full-time">Full-time</option>
+                <option value="Internship">Internship</option>
+                <option value="Contract">Contract</option>
+
+            </select>
+
+            <input 
+                type="date" 
+                id="applicationDate"
+            >
+
+            <select id="status">
+
+                <option value="Applied">Applied</option>
+                <option value="Interview">Interview</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Offer">Offer</option>
+
+            </select>
+
+            <button id="addButton">
+                Add Application
+            </button>
+
+        </div>
+
+
+        <!-- Application List -->
+        <div id="applicationList">
+
+            <div class="filter-container">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search by company or job role"
+                >
+
+                <select id="filterStatus">
+
+                    <option value="All">All Status</option>
+                    <option value="Applied">Applied</option>
+                    <option value="Interview">Interview</option>
+                    <option value="Rejected">Rejected</option>
+                    <option value="Offer">Offer</option>
+
+                </select>
+
+            </div>
+
+            <h2>My Applications</h2>
+
+            <div id="applicationsContainer"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
