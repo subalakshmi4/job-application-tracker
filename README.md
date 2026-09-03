@@ -9,10 +9,10 @@ A responsive web application built with **HTML, CSS, and JavaScript** to help us
 ## 🖼️ Project Preview
 
 ### 📊 Dashboard
-![Dashboard](screenshot1.png)
+![Dashboard](screenshots/screenshot1.png)
 
 ### 🔍 Search & Filter
-![Search and Filter](screenshot2.png)
+![Search and Filter](screenshots/screenshot2.png)
 
 ## ✨ Features
 
