@@ -2,6 +2,18 @@
 
 A responsive web application built with **HTML, CSS, and JavaScript** to help users organize and track their job applications efficiently.
 
+🌐 Live Demo
+
+🔗 [View Live Demo](https://subalakshmi4.github.io/job-application-tracker/)
+
+## 🖼️ Project Preview
+
+### 📊 Dashboard
+![Dashboard](screenshot1.png)
+
+### 🔍 Search & Filter
+![Search and Filter](screenshot2.png)
+
 ## ✨ Features
 
 * ➕ Add new job applications
